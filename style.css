@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Foxcat;
+  src: url("./foxcat.ttf") format("truetype");
+}
+body {
+  background-color: #E5E5E5;
+}
+hr {
+  position: absolute;
+  top:10%;
+  width: 550px;
+  left: 1% ;
+}
+
+.image {
+  border-color: black;
+   border-width: 100px;
+   border-style: solid;
+   border-radius: 50%;
+}
+
+.hr2 {
+  position: absolute;
+  top:4%;
+  width: 100px;
+  left: 53%;
+  color: black;
+  border-bottom: 1px solid red;
+       -webkit-transform:
+           translateY(10px)
+           translateX(2px)
+           rotate(357deg);
+}
+.hr3 {
+  position: absolute;
+  top:10%;
+  width: 120px;
+  left: 53%;
+  color: black;
+  border-bottom: 1px solid red;
+     -webkit-transform:
+         translateY(-9px)
+         translateX(2px)
+         rotate(29px);
+}
+.hr4 {
+  position: absolute;
+  top:14%;
+  width: 130px;
+  left: 55%;
+  border-bottom: 1px solid red;
+      -webkit-transoform:
+      translateY:(-15)
+      translateX:(3px)
+      rotate(36px);
+
+}
+h1 {
+  color: black;
+  text-align: left;
+  font-size: 2.3em;
+  /*font-family: Foxcat;*/
+  text-align: left;
+  text-decoration-skip: ink;
+}
+
+.fox {
+  font-family: Foxcat;
+  text-size: 2em;
+  text-align: left;
+}
+.name {
+  width: 100px;
+  position: absolute;
+  left: 14;
+  top: 2%;
+
+}
